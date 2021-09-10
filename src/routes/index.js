@@ -1,10 +1,10 @@
 import React from 'react';
 import {Switch, Route, BrowserRouter as Router} from "react-router-dom";
-import Dashboard from "../containers/dashboard";
-import Users from "../containers/users";
-import Groups from "../containers/groups";
-import NameSpace from "../containers/namespace";
-import Capability from "../containers/capability";
+import Dashboard from "../containers/Dashboard";
+import Users from "../containers/Users";
+import Groups from "../containers/Groups";
+import NameSpace from "../containers/Namespace";
+import Capability from "../containers/Capability";
 
 
 const Routes = () => {
