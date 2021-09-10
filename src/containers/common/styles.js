@@ -58,10 +58,12 @@ export default styled.div`
   .sidebar-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 250px;
+    height: 100vh;
     position: fixed;
     left: 0;
-    top: 80px;
+    top: 0;
     z-index: 10;
     > div {
       width: 65px;

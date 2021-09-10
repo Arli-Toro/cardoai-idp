@@ -11,13 +11,13 @@ const defaultOptions = {
 
 const Animation = (props) => {
 
-    const {animation} = props;
-    const options = {...defaultOptions, animationData: animation, loop: false};
+    const {animation, loop, width, height} = props;
+    const options = {...defaultOptions, animationData: animation, loop: loop};
     return (
             <Lottie
                 options={options}
-                width={"150px"}
-                height={"150px"}
+                width={width}
+                height={height}
             />
     );
 };

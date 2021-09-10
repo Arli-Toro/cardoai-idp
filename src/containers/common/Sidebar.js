@@ -34,47 +34,7 @@ const Sidebar = () => {
         <div className={"sidebar-wrapper"}>
             <div>
                 <Popover placement="right" content={dashboard} trigger="hover">
-                    <Link to="/">
-                        <img src={dashboardImg}/>
-                    </Link>
-                </Popover>
-                <Divider/>
-            </div>
-            <div>
-                <Popover placement="right" content={users} trigger="hover">
-                    <Link to="/users">
-                        <img src={usersImg}/>
-                    </Link>
-                </Popover>
-                <Divider/>
-            </div>
-            <div>
-                <Popover placement="right" content={groups} trigger="hover">
-                    <Link to="/groups">
-                        <img src={groupsImg}/>
-                    </Link>
-                </Popover>
-                <Divider/>
-            </div>
-            <div>
-                <Popover placement="right" content={namespace} trigger="hover">
-                    <Link to="/namespace">
-                        <img src={nameSpaceImg}/>
-                    </Link>
-                </Popover>
-                <Divider/>
-            </div>
-            <div>
-                <Popover placement="right" content={capabilities} trigger="hover">
-                    <Link to="/capability">
-                        <img src={capabilityImg}/>
-                    </Link>
-                </Popover>
-                <Divider/>
-            </div>
-            <div>
-                <Popover placement="right" content={dashboard} trigger="hover">
-                    <Link to="/">
+                    <Link to="/dashboard">
                         <img src={dashboardImg}/>
                     </Link>
                 </Popover>

@@ -5,6 +5,7 @@ import Users from "../containers/Users";
 import Groups from "../containers/Groups";
 import NameSpace from "../containers/Namespace";
 import Capability from "../containers/Capability";
+import Login from "../containers/Login";
 
 
 const Routes = () => {
@@ -12,6 +13,9 @@ const Routes = () => {
         <Router>
             <Switch>
                 <Route exact path="/">
+                    <Login />
+                </Route>
+                <Route exact path="/dashboard">
                     <Dashboard />
                 </Route>
                 <Route exact path="/users">

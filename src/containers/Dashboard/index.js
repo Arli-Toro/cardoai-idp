@@ -27,7 +27,7 @@ const Dashboard = () => {
                             ]}
                         >
                             <div className={"card-content"}>
-                                <Animation animation={userAnimation}/>
+                                <Animation animation={userAnimation} loop={false} width={"150px"} height={"150px"}/>
                                 <div>
                                     <h2>Users</h2>
                                     <h1>67</h1>
@@ -45,7 +45,7 @@ const Dashboard = () => {
                             ]}
                         >
                             <div className={"card-content"}>
-                                <Animation animation={groupsAnimation}/>
+                                <Animation animation={groupsAnimation} width={"150px"} height={"150px"}/>
                                 <div>
                                     <h2>Groups</h2>
                                     <h1>16</h1>
@@ -63,9 +63,9 @@ const Dashboard = () => {
                             ]}
                         >
                             <div className={"card-content"}>
-                                <Animation animation={nameSpaceAnimation}/>
+                                <Animation animation={nameSpaceAnimation} width={"150px"} height={"150px"}/>
                                 <div>
-                                    <h2>Namesapces</h2>
+                                    <h2>Namespaces</h2>
                                     <h1>3</h1>
                                 </div>
                             </div>
@@ -81,9 +81,9 @@ const Dashboard = () => {
                             ]}
                         >
                             <div className={"card-content"}>
-                                <Animation animation={capabilityAnimation}/>
+                                <Animation animation={capabilityAnimation} width={"150px"} height={"150px"}/>
                                 <div>
-                                    <h2>Capability</h2>
+                                    <h2>Capabilities</h2>
                                     <h1>129</h1>
                                 </div>
                             </div>
